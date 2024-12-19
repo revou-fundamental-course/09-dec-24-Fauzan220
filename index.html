@@ -1,5 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Trusted Travel Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Our Package</a></li>
+                <li><a href="#contact">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <div class="slide" style="background-image: url('banner1.jpg');"></div>
+            <div class="slide" style="background-image: url('banner2.jpg');"></div>
+            <div class="slide" style="background-image: url('banner3.jpg');"></div>
+        </div>
+        <h1>Your Trusted Travel Agent's</h1>
+        <p>Your happiness is our happiness</p>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <p>Explore the best travel deals curated just for you.</p>
+        <!-- Add package cards or information here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest" required>
+                <option value="">Select option</option>
+                <option value="package1">Package 1</option>
+                <option value="package2">Package 2</option>
+                <option value="package3">Package 3</option>
+            </select>
+
+            <button type="submit">SEND</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
    
